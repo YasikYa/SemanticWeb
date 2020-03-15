@@ -17,6 +17,7 @@ namespace XMLParsing
     {
         private const string SCHEMA_PATH = "schema.xml";
         private const string PATH = "rabota.xml";
+        private const string JSON_PATH = "rabota.json";
         static void Main(string[] args)
         {
             var mainTask = AsyncMain();
@@ -53,6 +54,10 @@ namespace XMLParsing
                 if (response.IsSuccessStatusCode)
                 {
                     var content = await response.Content.ReadAsStringAsync();
+                    using(var streamWriter = new StreamWriter(File.Create(JSON_PATH)))
+                    {
+                        streamWriter.Write(content);
+                    }
                     entities = ParseJSON(content);
                 }
 
