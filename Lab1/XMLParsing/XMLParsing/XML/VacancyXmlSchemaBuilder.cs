@@ -90,7 +90,21 @@ namespace XMLParsing
         {
             var cityNameElement = new XmlSchemaElement();
             cityNameElement.Name = "CityName";
-            cityNameElement.SchemaTypeName = new XmlQualifiedName("string", "http://www.w3.org/2001/XMLSchema");
+
+            var cityNameType = new XmlSchemaSimpleType();
+            var cityNameRestriction = new XmlSchemaSimpleTypeRestriction();
+            cityNameRestriction.BaseTypeName = new XmlQualifiedName("string", "http://www.w3.org/2001/XMLSchema");
+
+            var maxLength = new XmlSchemaMaxLengthFacet();
+            maxLength.Value = "15";
+            var minLenght = new XmlSchemaMinLengthFacet();
+            minLenght.Value = "4";
+
+            cityNameRestriction.Facets.Add(maxLength);
+            cityNameRestriction.Facets.Add(minLenght);
+            cityNameType.Content = cityNameRestriction;
+
+            cityNameElement.SchemaType = cityNameType;
             return cityNameElement;
         }
 
