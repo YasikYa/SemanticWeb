@@ -8,7 +8,14 @@
             <xs:sequence>
               <xs:element name="Name" type="xs:string" />
               <xs:element name="Date" type="xs:dateTime" />
-              <xs:element name="CityName" type="xs:string" />
+              <xs:element name="CityName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                    <xs:minLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
               <xs:element name="ShortDescription" type="xs:string" />
               <xs:element name="CompanyName" type="xs:string" />
             </xs:sequence>
