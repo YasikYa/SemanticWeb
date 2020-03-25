@@ -7,8 +7,10 @@ using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
+using System.Xml.Xsl;
 using XMLParsing.XML;
 
 namespace XMLParsing
@@ -18,9 +20,11 @@ namespace XMLParsing
         private const string SCHEMA_PATH = @"E:\3 курс\WeB\Lab1\XMLParsing\XMLParsing\StaticFiles\schema.xml";
         private const string PATH = @"E:\3 курс\WeB\Lab1\XMLParsing\XMLParsing\StaticFiles\rabota.xml";
         private const string JSON_PATH = @"E:\3 курс\WeB\Lab1\XMLParsing\XMLParsing\StaticFiles\rabota.json";
+        private const string XSL_PATH = @"E:\3 курс\WeB\Lab1\XMLParsing\XMLParsing\StaticFiles\Styles.xslt";
+        private const string HTML_PATH = @"E:\3 курс\WeB\Lab1\XMLParsing\XMLParsing\StaticFiles\rabota.html";
         static void Main(string[] args)
         {
-            Editor();
+            GenerateHTML();
             Console.WriteLine("DONE");
             Console.ReadLine();
         }
@@ -92,6 +96,21 @@ namespace XMLParsing
             using(var stream = File.Create(PATH))
             {
                 serializer.Serialize(stream, item);
+            }
+        }
+
+        public static void GenerateHTML()
+        {
+            XsltArgumentList args = new XsltArgumentList();
+            XslCompiledTransform transformObj = new XslCompiledTransform();
+            transformObj.Load(XSL_PATH);
+
+            using(var reader = XmlReader.Create(File.OpenRead(PATH)))
+            {
+                using(var writer = File.Create(HTML_PATH))
+                {
+                    transformObj.Transform(reader, args, writer);
+                }
             }
         }
     }
