@@ -1,0 +1,163 @@
+﻿<?xml version="1.0"?>
+<ArrayOfVacancy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Vacancy Id="7925519" customId="1">
+    <Name>Помічник програміста 1C</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Експрес-Т - ми забезпечуємо вирішення логістичних та експедиційних завдань понад 20 років. Тому, як ніхто інший, розуміємо наскільки важливо мати команду професіоналів. Ми пропонуємо:стабільну роботу в компанії, що розвивається;комфортні умови для роботи;зручний</ShortDescription>
+    <CompanyName>Express-T</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7926657" customId="2">
+    <Name>Головний експерт з розвитку сховищ даних</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Що робити:розробка засобів навчання в ПЗ WebTutor Що потрібно:знання JavaScript, HTML5, XML, CSS, досвід web верстки та створення сайтівзнання ПЗ WebTutorзагальне розуміння Oracle (PL/SQL)аналітичний склад розуму, системне мислення, уважність до деталей</ShortDescription>
+    <CompanyName>Райффайзен Банк Аваль</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7931769" customId="3">
+    <Name>Senior Mobile Security Researcher (AdTech Platform)</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>We welcome an experienced, proactive professional in security engineering to join our team.As a Mobile Security Researcher, you will have an opportunity to recommend changes to the product, use innovative approaches to R&amp;amp;D activities, optimize working</ShortDescription>
+    <CompanyName>Sigma Software</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7093002" customId="4">
+    <Name>Intern (Junior developer)</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Innoware is recognized as experts in the consulting services, specializing in ERP and CRM implementations and cloud business solutions. Our company holds Microsoft Gold Certified Partner status and acknowledged as one of the best partners in Eastern Europe.</ShortDescription>
+    <CompanyName>INNOWARE</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7874424" customId="5">
+    <Name>Sales Project Manager по работе с компаниями – заказчиками</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>ASBIS - ведущая международная компания, лидер рынка дистрибуции ИТ-продуктов и решений, в связи с развитием направления, приглашает на работу Sales Project Manager по работе с компаниями - заказчиками Функциональные обязанности:Управление проектами (заказчики:</ShortDescription>
+    <CompanyName>ASBIS-Украина</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7931506" customId="6">
+    <Name>Oracle DB Administrator, Media Conglomerate</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Днепр</CityName>
+    <ShortDescription>DataArt is involved in software modernization of key business areas of one of the largest music conglomerates. The solutions we're currently developing affect various aspects of recording studios: tour organization, merchandising, management of licenses</ShortDescription>
+    <CompanyName>DataArt</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7922563" customId="7">
+    <Name>Middle DevOps Engineer, Global Recorded Music Company</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Our client is a global music and entertainment industry conglomerate headquartered in the US with offices in over 40 countries. Currently, the company plans to expand the team and run the following projects: processing tools for new artists and tracks,</ShortDescription>
+    <CompanyName>DataArt</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7922567" customId="8">
+    <Name>Data Engineer, Global Music Company (Relocation Opportunity)</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>IF THERE IS NO DATAART DEVELOPMENT CENTER IN YOUR PLACE,YOU CAN APPLY TO THE POSITION AND USE OUR RELOCATION SERVICE. Our client is a global music and entertainment industry conglomerate headquartered in the US with offices in over 40 countries. Currently,</ShortDescription>
+    <CompanyName>DataArt</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7922571" customId="9">
+    <Name>Informatica ETL Developer, Multinational Financial Services</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>DataArt's specialists are developing a platform that serves as a constructor for embedded mobile applications for one of the top-three UK insurance companies. It is designed to proceed with flow-based programming, on-premise configuration, and deployment.</ShortDescription>
+    <CompanyName>DataArt</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7922574" customId="10">
+    <Name>Senior Data Engineer, Appointment Scheduling Service</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>DataArt is assembling a team for a client that is developing a medical appointment booking platform. Forty percent of U.S. residents use its services in more than 2000 cities, and more than 10 million appointments a month are booked through the platform.</ShortDescription>
+    <CompanyName>DataArt</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7912795" customId="11">
+    <Name>C++ Developer, Communication Recording Solutions</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Днепр</CityName>
+    <ShortDescription>Our client is a large technology company that develops solutions for recording and working with voice data. Through integration with telephone systems, this open and extensible platform allows to record, manage, and listen to calls live as well as to</ShortDescription>
+    <CompanyName>DataArt</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="6951819" customId="12">
+    <Name>Программист 1С</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Самому популярному интернет-магазину Rozetka.ua требуется - Программист 1СЧто делать:Модификация используемой конфигурации 1С под актуальные задачи компании, поддержка имеющейся конфигурации;Создавать новые документы, отчеты, обработки бухгалтерского,</ShortDescription>
+    <CompanyName>ROZETKA</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7882716" customId="13">
+    <Name>Senior HelpDesk Specialist / Team Lead</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>3Shape A/S is a Danish hi-tech company specializing in the production and development of3D solutions (3D scanners and 3D software) for industrial and healthcare applications, such as hearing and dental aid production, where we have a global leading position.</ShortDescription>
+    <CompanyName>3Shape Ukraine</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7930378" customId="14">
+    <Name>Full-Stack Developer (PHP/JavaScript)</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Ищем Full-Stack Developer, для которого важно создавать качественный продукт и видеть результат своей работы. У нас есть свои CRM, продуктовые сайты и seo-проекты, большая часть из них на PHP/JS. Твоими задачами будут:разрабатывать проекты с первой строчки</ShortDescription>
+    <CompanyName>DexDigital</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7870836" customId="15">
+    <Name>Спеціаліст з надання інформаційно-консультаційних послуг (сербська, хорватська, боснійська)</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Львов</CityName>
+    <ShortDescription>Якщо сербська, хорватська, або боснійська мова майже як рідна, а досконале вирішення технічних завдань робить Вас щасливим, МИ ЧЕКАЄМО САМЕ НА ВАС! Один з найвідоміших міжнародних концернів, що працює в галузі електроніки, медичного обладнання, та світлотехніки</ShortDescription>
+    <CompanyName>Runway Ukraina</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="6688731" customId="16">
+    <Name>Senior Java Engineer</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Currently, we are looking for an experienced engineer to join one of our teams that tightly collaborate with Silicon Valley startup in Unified Communications Federation space. We are looking for a Java Developer Bits of knowledge required:5+ years of</ShortDescription>
+    <CompanyName>Codeminders</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7922114" customId="17">
+    <Name>Програмист 1С</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Одесса</CityName>
+    <ShortDescription>Программист 1С ТребованияПрофильное образованиеОпыт работы администрирования учетной программы «1С:Предприятие»Коммуникабельность, исполнительность. ответственность, инициативность.Обязанности:Разработка, внедрение и сопровождение конфигураций;Доработка</ShortDescription>
+    <CompanyName>Bexhill Trading </CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7905837" customId="18">
+    <Name>Customer support specialist</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Timac Agro International (http://www.timacagro.com), subsidiary of the Roullier Group, is an expert in plant and animal nutrition. Now present in over 42 countries throughout the world, Timac Agro manufactures and commercializes fertilizers and nutritional</ShortDescription>
+    <CompanyName>Тімак Агро Україна</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7928594" customId="19">
+    <Name>Customer Support Representative German desk </Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Prosperity Case is looking for a Customer Support Specialist with knowledge of German.  Requirements: high level German proficiency (at least C1) competent written and spoken language (knowledge of German grammar and stylistics) communication experience</ShortDescription>
+    <CompanyName>PROSPERITY CASE</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+  <Vacancy Id="7919389" customId="20">
+    <Name>UX Researcher</Name>
+    <Date>24.03.2020</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>PMLAB - это украинская продуктовая компания c full-cycle development в сфере Entertainment. Мы являемся частью международного Холдинга, который представлен во многих странах мира с общим числом сотрудников - более 1 600 человек. Внутри нашего холдинга</ShortDescription>
+    <CompanyName>PMLAB</CompanyName>
+    <TimeStamp timeUnit="seconds">1585162862</TimeStamp>
+  </Vacancy>
+</ArrayOfVacancy>

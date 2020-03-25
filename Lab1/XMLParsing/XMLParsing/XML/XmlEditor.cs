@@ -66,13 +66,15 @@ namespace XMLParsing.XML
         public void SaveDocument()
         {
             var newFile = Path.GetFileNameWithoutExtension(_xmlPath) + "Modify" + ".xml";
+            var dir = Path.GetDirectoryName(_xmlPath);
+            var newPath = Path.Combine(dir, newFile);
             var xmlWriterSettings = new XmlWriterSettings();
             xmlWriterSettings.Indent = true;
-            using (var writer = XmlWriter.Create(newFile, xmlWriterSettings))
+            using (var writer = XmlWriter.Create(newPath, xmlWriterSettings))
             {
                 Doc.WriteTo(writer);
             }
-            _document = null;
+            _document = null; 
         }
 
         private XmlElement CreateTimeStamp()

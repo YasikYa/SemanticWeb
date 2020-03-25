@@ -15,10 +15,24 @@ namespace XMLParsing
 {
     class Program
     {
-        private const string SCHEMA_PATH = "schema.xml";
-        private const string PATH = "rabota.xml";
-        private const string JSON_PATH = "rabota.json";
+        private const string SCHEMA_PATH = @"E:\3 курс\WeB\Lab1\XMLParsing\XMLParsing\StaticFiles\schema.xml";
+        private const string PATH = @"E:\3 курс\WeB\Lab1\XMLParsing\XMLParsing\StaticFiles\rabota.xml";
+        private const string JSON_PATH = @"E:\3 курс\WeB\Lab1\XMLParsing\XMLParsing\StaticFiles\rabota.json";
         static void Main(string[] args)
+        {
+            Editor();
+            Console.WriteLine("DONE");
+            Console.ReadLine();
+        }
+
+        public static void Schema()
+        {
+            var mainTask = AsyncMain();
+            Console.WriteLine("In progress");
+            mainTask.Wait();
+        }
+
+        public static void Editor()
         {
             IDocumentEditor editor = new XmlEditor(PATH);
             editor.AddTextValue();
@@ -26,8 +40,6 @@ namespace XMLParsing
             editor.AddAttribute();
             editor.RemoveAttribute();
             editor.SaveDocument();
-            Console.WriteLine("DONE");
-            Console.ReadLine();
         }
 
         public static async Task AsyncMain()
