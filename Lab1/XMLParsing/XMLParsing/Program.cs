@@ -20,9 +20,12 @@ namespace XMLParsing
         private const string JSON_PATH = "rabota.json";
         static void Main(string[] args)
         {
-            var mainTask = AsyncMain();
-            Console.WriteLine("Operation in proggress");
-            mainTask.Wait();
+            IDocumentEditor editor = new XmlEditor(PATH);
+            editor.AddTextValue();
+            editor.AddComplexTypeElement();
+            editor.AddAttribute();
+            editor.RemoveAttribute();
+            editor.SaveDocument();
             Console.WriteLine("DONE");
             Console.ReadLine();
         }
