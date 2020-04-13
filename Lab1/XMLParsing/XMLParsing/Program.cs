@@ -24,7 +24,9 @@ namespace XMLParsing
         private const string HTML_PATH = @"E:\3 курс\WeB\Lab1\XMLParsing\XMLParsing\StaticFiles\rabota.html";
         static void Main(string[] args)
         {
-            GenerateHTML();
+            //GenerateHTML();
+            Editor();
+            //Schema();
             Console.WriteLine("DONE");
             Console.ReadLine();
         }
@@ -43,6 +45,7 @@ namespace XMLParsing
             editor.AddComplexTypeElement();
             editor.AddAttribute();
             editor.RemoveAttribute();
+            editor.AddComplex();
             editor.SaveDocument();
         }
 

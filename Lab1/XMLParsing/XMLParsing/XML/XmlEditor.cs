@@ -86,6 +86,20 @@ namespace XMLParsing.XML
             return dateElement;
         }
 
+        public void AddComplex()
+        {
+            var vacancyElements = Doc.GetElementsByTagName("Vacancy");
+            var vacancy = vacancyElements.Item(0).Clone();
+            var vacancyChilds = vacancy.ChildNodes;
+            foreach(XmlElement field in vacancyChilds)
+            {
+                field.InnerText = "Test";
+            }
+
+            var topList = Doc.GetElementsByTagName("ArrayOfVacancy").Item(0);
+            topList.AppendChild(vacancy);
+        }
+
         public void RemoveAttribute()
         {
             var vacancyElements = Doc.GetElementsByTagName("Vacancy");

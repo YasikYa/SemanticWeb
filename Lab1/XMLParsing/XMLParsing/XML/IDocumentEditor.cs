@@ -11,5 +11,6 @@ namespace XMLParsing.XML
         void AddTextValue();
         void AddComplexTypeElement();
         void SaveDocument();
+        void AddComplex();
     }
 }
