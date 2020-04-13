@@ -89,7 +89,12 @@ namespace XMLParsing.XML
         public void AddComplex()
         {
             var vacancyElements = Doc.GetElementsByTagName("Vacancy");
-            var vacancy = vacancyElements.Item(0).Clone();
+            var vacancy = vacancyElements.Item(vacancyElements.Count - 1).Clone();
+            foreach(XmlAttribute id in vacancy.Attributes)
+            {
+                int currId = int.Parse(id.InnerText);
+                id.InnerText = (++currId).ToString();
+            }
             var vacancyChilds = vacancy.ChildNodes;
             foreach(XmlElement field in vacancyChilds)
             {
