@@ -24,8 +24,9 @@ namespace XMLParsing
         private const string HTML_PATH = @"E:\3 курс\WeB\Lab1\XMLParsing\XMLParsing\StaticFiles\rabota.html";
         static void Main(string[] args)
         {
+            XPathMain();
             //GenerateHTML();
-            Editor();
+            //Editor();
             //Schema();
             Console.WriteLine("DONE");
             Console.ReadLine();
@@ -47,6 +48,39 @@ namespace XMLParsing
             editor.RemoveAttribute();
             editor.AddComplex();
             editor.SaveDocument();
+        }
+
+        public static void XPathMain()
+        {
+            IXPathProvider xPath = new QueryProvider(PATH);
+            BreakPoint();
+            xPath.CountVacancy();
+            BreakPoint();
+            xPath.SelectAttributes();
+            BreakPoint();
+            xPath.SelectInfoSingle();
+            BreakPoint();
+            xPath.SelectOnLength();
+            BreakPoint();
+            xPath.SelectFirstChild();
+            BreakPoint();
+            xPath.SelectSecondChild();
+            BreakPoint();
+            xPath.SelectThirdChild();
+            BreakPoint();
+            xPath.SelectOnStatus();
+            BreakPoint();
+            xPath.EveryFifthData();
+            BreakPoint();
+            xPath.OddCount();
+            BreakPoint();
+        }
+
+        private static void BreakPoint()
+        {
+            Console.WriteLine("\nPress any key to next query");
+            Console.ReadLine();
+            Console.Clear();
         }
 
         public static async Task AsyncMain()

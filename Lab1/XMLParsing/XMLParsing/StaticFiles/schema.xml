@@ -3,7 +3,7 @@
   <xs:element name="ArrayOfVacancy">
     <xs:complexType>
       <xs:sequence>
-        <xs:element maxOccurs="unbounded" name="Vacancy">
+        <xs:element maxOccurs="unbounded" name="Vacanc">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Name" type="xs:string" />
