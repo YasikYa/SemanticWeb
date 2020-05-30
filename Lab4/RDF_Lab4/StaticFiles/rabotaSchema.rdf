@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+	<!ENTITY rua 'https://rabota.ua/'>
+]>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rua="https://rabota.ua/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Property rdf:about="&rua;Company">
+    <rdfs:domain rdf:resource="&rua;Vacancy" />
+    <rdfs:range rdf:resource="&xsd;string" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rua;Date">
+    <rdfs:domain rdf:resource="&rua;Vacancy" />
+    <rdfs:range rdf:resource="&xsd;date" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rua;Description">
+    <rdfs:domain rdf:resource="&rua;Vacancy" />
+    <rdfs:range rdf:resource="&xsd;string" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rua;Hot">
+    <rdfs:domain rdf:resource="&rua;Vacancy" />
+    <rdfs:range rdf:resource="&xsd;boolean" />
+  </rdf:Property>
+  <rdf:Description rdf:about="&rua;ITVacancy">
+    <rdfs:subClassOf rdf:resource="&rua;Vacancy" />
+  </rdf:Description>
+  <rdf:Property rdf:about="&rua;Id">
+    <rdfs:domain rdf:resource="&rua;Vacancy" />
+    <rdfs:range rdf:resource="&xsd;integer" />
+  </rdf:Property>
+  <rdf:Description rdf:about="&rua;JuniorVacancy">
+    <rdfs:subClassOf rdf:resource="&rua;ITVacancy" />
+  </rdf:Description>
+  <rdf:Property rdf:about="&rua;Location">
+    <rdfs:domain rdf:resource="&rua;Vacancy" />
+    <rdfs:range rdf:resource="&xsd;string" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rua;LongDate">
+    <rdfs:subPropertyOf rdf:resource="&rua;Date" />
+  </rdf:Property>
+  <rdf:Description rdf:about="&rua;MiddleVacancy">
+    <rdfs:subClassOf rdf:resource="&rua;ITVacancy" />
+  </rdf:Description>
+  <rdf:Description rdf:about="&rua;SeniorVacancy">
+    <rdfs:subClassOf rdf:resource="&rua;ITVacancy" />
+  </rdf:Description>
+  <rdf:Property rdf:about="&rua;Title">
+    <rdfs:domain rdf:resource="&rua;Vacancy" />
+    <rdfs:range rdf:resource="&xsd;string" />
+  </rdf:Property>
+  <rdfs:Class rdf:about="&rua;Vacancy">
+    <rdf:type rdf:resource="&rdfs;Class" />
+  </rdfs:Class>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/6033318">
+    <rua:Company rdf:datatype="&xsd;string">CTS INTERNATIONAL</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">Требования:свободное владение HTML, CSS, JavaScript, JQuery, AJAX;отличные знания PHP, MySQL;Опыт работы с Angular обязательно;понимание принципов ООП и их практическое применение (знание любых Framework будет плюсом);Умение придерживаться согласованного</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">6033318</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">22.05.2020 15:01:00</rua:LongDate>
+    <rua:Title>Front End, Back End, Full stack developer</rua:Title>
+  </rua:ITVacancy>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/6561083">
+    <rua:Company rdf:datatype="&xsd;string">КВЕСТ МАРКЕТИНГ ЛТД</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">You will be of great asset if:you possess great English written and oral communication skills;you are a fluent Windows PC user with speedy typing skills;you're ready to take at least 2 night shifts per week;attentiveness is all about you;diligence is</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">6561083</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">23.05.2020 13:01:00</rua:LongDate>
+    <rua:Title>Customer Support specialist</rua:Title>
+  </rua:ITVacancy>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/7604508">
+    <rua:Company rdf:datatype="&xsd;string">Lime Devs</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">В продуктовую IT-компанию, которая занимается разработкой программного обеспечения и продвижением его до конечного пользователя, открыт набор на позицию аккаунт - менеджера со знанием польского языка. Кто нам нужен?Специалист, который будет внедрять,</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7604508</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">23.05.2020 10:01:00</rua:LongDate>
+    <rua:Title>Аккаунт - менеджер со знанием польского языка</rua:Title>
+  </rua:ITVacancy>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/7723999">
+    <rua:Company rdf:datatype="&xsd;string">Prohabitat</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">Kim jestesmy Jestesmy kilkuosobowa nowoczesna firma pomagajaca przedsiebiorstwom w dostosowywaniu sie do wymogow prawa ochrony srodowiska. Sporzadzamy roznego rodzaju opinie, ekspertyzy, raporty, sprawozdania i inne dotyczace ochrony srodowiska. Wartosci</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7723999</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">22.05.2020 21:01:00</rua:LongDate>
+    <rua:Title>Mlodszy specjalista ds. ochrony srodowiska</rua:Title>
+  </rua:ITVacancy>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/7778821">
+    <rua:Company rdf:datatype="&xsd;string">Frag Lab</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">Frag Lab studio is a videogames development studio based in Kiev and focused on next gen AAA games creation. Our team of industry veterans is now working on a new revolutionary IP and we are looking for Render Programmer to join our R&amp;amp;D department.</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7778821</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">22.05.2020 15:01:00</rua:LongDate>
+    <rua:Title>Render Programmer</rua:Title>
+  </rua:ITVacancy>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/7812825">
+    <rua:Company rdf:datatype="&xsd;string">Бинотел, ТОВ </rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">Binotel - это продуктовая IТ-компания, которая разрабатывает и продает уникальную IP-телефонию и сопутствующие «умные» инструменты для повышения эффективности бизнеса.15 тыс. компаний используют продукты Binotel в ежедневной работе, 1.5 млн. человек каждый</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7812825</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">23.05.2020 0:01:00</rua:LongDate>
+    <rua:Title>Специалист технической поддержки (с обучением)</rua:Title>
+  </rua:ITVacancy>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/7833956">
+    <rua:Company rdf:datatype="&xsd;string">Softo</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">Мы сделали лучший в мире конвертер файлов, а сейчас делаем лучший в мире онлайн-редактор видео https://clideo.comРастем сильно быстрее, чем успеваем делать.Присоединяйся: https://team.softo.coОтклики/заявки рассматриваем только отправленные с нашего сайта!</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7833956</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">23.05.2020 13:01:00</rua:LongDate>
+    <rua:Title>Full Stack Developer</rua:Title>
+  </rua:ITVacancy>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/7842487">
+    <rua:Company rdf:datatype="&xsd;string">Neogames</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">NeoGames is seeking a quality and experienced DBA Production - infrastructure and applicative. The DBA will be responsible for all DB aspects in the production environment. Responsibilities:Provide support for multiple environments - development, test</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7842487</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Харьков</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">23.05.2020 0:01:00</rua:LongDate>
+    <rua:Title>DBA Production (MS SQL Server)</rua:Title>
+  </rua:ITVacancy>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/7881121">
+    <rua:Company rdf:datatype="&xsd;string">Outcrowd</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">About:Product design and development studio based in Kharkiv, Ukraine. We help in building and creating brands, businesses, companies and products. We do that through analyses, research, design, animation, branding and development. And a pinch of magic</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7881121</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Харьков</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">22.05.2020 17:01:00</rua:LongDate>
+    <rua:Title>IT Sales Manager</rua:Title>
+  </rua:ITVacancy>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/7884970">
+    <rua:Company rdf:datatype="&xsd;string">Lime Devs</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">Кто нам нужен?Специалист, который будет внедрять, развивать и поддерживать высокие стандарты качества обслуживания наших клиентов. Мы предлагаем:Работу в самом сердце КиеваУдобный график работы (вт. - сб.), с 11.00 до 20:00 (тебе не придется толпиться</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7884970</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">23.05.2020 11:01:00</rua:LongDate>
+    <rua:Title>Аккаунт-менеджер со знанием турецкого языка</rua:Title>
+  </rua:ITVacancy>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/7892509">
+    <rua:Company rdf:datatype="&xsd;string">Terrasoft</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">Creatio team is looking for a Business Development Manager (Enterprise Accounts) in Kyiv, Ukraine. In this position you will be responsible for the sales strategy and tactics development and implementation regarding Enterprise Accounts. Your key goal</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7892509</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">23.05.2020 12:01:00</rua:LongDate>
+    <rua:Title>Business Development Manager (Enterprise Accounts)</rua:Title>
+  </rua:ITVacancy>
+  <rua:SeniorVacancy rdf:about="https://rabota.ua/company/vacancy/7900470">
+    <rua:Company rdf:datatype="&xsd;string">3Shape Ukraine</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">3Shape A/S is a Danish hi-tech company specializing in the production and development of 3D solutions (3D scanners and 3D software) for industrial and healthcare applications, such as hearing and dental aid production, where we have a global leading position.</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7900470</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">23.05.2020 11:01:00</rua:LongDate>
+    <rua:Title>Senior Front-end developer (React)</rua:Title>
+  </rua:SeniorVacancy>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/7955002">
+    <rua:Company rdf:datatype="&xsd;string">Genesis</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">Genesis is a full-service international IT company. More than 1,500 people in five countries create products for more than 200 million unique monthly users. We are one of the largest partners of Facebook, Google, Snapchat, and Apple in Eastern Europe.</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7955002</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">23.05.2020 14:01:00</rua:LongDate>
+    <rua:Title>Motion Designer 3D (BetterMe)</rua:Title>
+  </rua:ITVacancy>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/7956216">
+    <rua:Company rdf:datatype="&xsd;string">Квадрасофт, ООО </rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">Компания Квадрасофт в связи с запуском новых проектов приглашает на работу Программиста PHP. Для нас большим плюсом будет возможность долгосрочного сотрудничества с человеком, который станет частью нашей дружной команды. Мы работаем с 2004 года и за более</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7956216</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">22.05.2020 17:21:24</rua:LongDate>
+    <rua:Title>PHP Developer</rua:Title>
+  </rua:ITVacancy>
+  <rua:SeniorVacancy rdf:about="https://rabota.ua/company/vacancy/7958639">
+    <rua:Company rdf:datatype="&xsd;string">DataArt</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">Our client is a New York City-based FinTech company that is building a software platform for the investment banking industry and a line of products to serve the needs of financial companies.DataArt is looking for an experienced DevOps Engineer to join</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7958639</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">22.05.2020 18:01:00</rua:LongDate>
+    <rua:Title>Senior DevOps Engineer, Financial Software Solutions</rua:Title>
+  </rua:SeniorVacancy>
+  <rua:JuniorVacancy rdf:about="https://rabota.ua/company/vacancy/7959331">
+    <rua:Company rdf:datatype="&xsd;string">Darwin Global</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">Набираем Джунов в команду SEO Project. Большие цели, крупные проекты. Технологии и программа подготовки лучшая на рынке - 6 месяцев и вы дорогой специалист, 12 и к вам очередь из предложений (хороший шанс сменить сферу). Мы не агентство, у нас человек</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7959331</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">22.05.2020 13:01:00</rua:LongDate>
+    <rua:Title>Junior SEO Project manager</rua:Title>
+  </rua:JuniorVacancy>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/7959392">
+    <rua:Company rdf:datatype="&xsd;string">Lime Devs</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">Компания Lime Consulting в связи с расширением приглашает к сотрудничеству game manager-a. Требования:Ответственность;Умение и желание учиться и работать в команде;Внимательность;Грамотная русская письменная и устная речь;Знание английского языка не ниже</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7959392</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">22.05.2020 16:01:00</rua:LongDate>
+    <rua:Title>Game manager</rua:Title>
+  </rua:ITVacancy>
+  <rua:JuniorVacancy rdf:about="https://rabota.ua/company/vacancy/7959461">
+    <rua:Company rdf:datatype="&xsd;string">PayPro Global inc</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">PayPro Global a leading international eCommerce provider to sell software online, is looking for a Web Developer to join our expanding team and help develop and support international eCommerce solution. Experience in HTML, Javascript and CSS is essential.Job</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7959461</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Львов</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">22.05.2020 13:01:00</rua:LongDate>
+    <rua:Title>Junior Strong Front-end Developer</rua:Title>
+  </rua:JuniorVacancy>
+  <rua:ITVacancy rdf:about="https://rabota.ua/company/vacancy/7959970">
+    <rua:Company rdf:datatype="&xsd;string">Yoloto Ltd</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">Требования:ДевушкаЯркие черты лица, такие как губы и т.д.Baby face/лицоВысота: выше 150 смОтносительное знание английского языкаДругие языки желательноНадежность, ответственность, конфиденциальность и последовательность. Возможность путешествовать по</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7959970</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Другие страны</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">22.05.2020 21:01:00</rua:LongDate>
+    <rua:Title>Модель для Видео игры</rua:Title>
+  </rua:ITVacancy>
+  <rua:JuniorVacancy rdf:about="https://rabota.ua/company/vacancy/7964154">
+    <rua:Company rdf:datatype="&xsd;string">Lime Devs</rua:Company>
+    <rua:Description rdf:datatype="&xsd;string">Мы продуктовая IT компания и, в связи с развитием новых проектов, ищем Junior SEO специалиста, который: Понимает, что такое SEO и его основные методы;Умеет применять теоретические знания на практике;Понимает принцип работы поисковых систем и алгоритмов</rua:Description>
+    <rua:Hot rdf:datatype="&xsd;boolean">True</rua:Hot>
+    <rua:Id rdf:datatype="&xsd;positiveInteger">7964154</rua:Id>
+    <rua:Location rdf:datatype="&xsd;string">Киев</rua:Location>
+    <rua:LongDate rdf:datatype="&xsd;date">22.05.2020 16:50:32</rua:LongDate>
+    <rua:Title>Junior SEO-специалист</rua:Title>
+  </rua:JuniorVacancy>
+</rdf:RDF>

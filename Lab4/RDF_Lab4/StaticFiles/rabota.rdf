@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+	<!ENTITY dct 'http://purl.org/dc/terms/'>
+	<!ENTITY dce 'http://purl.org/dc/elements/1.1/'>
+]>
+<rdf:RDF xml:base="https://api.rabota.ua/vacancy/search?cityId=0&amp;parentId=1" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dce="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/6364333">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">Разработчик и издатель мобильных игр «MysteryTag» ищет тестировщика игр в Киевский офис. Наша компания выпустила более 10 игр на мобильные платформы, с общим количеством установок 10 миллионов по всему миру. Harvest LandIOS: http://apple.co/2g7TFlaAndroid:</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">6364333</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">Mysterytag</dct:issued>
+    <dct:title xml:lang="en">Manual QA Engineer (Тестировщик игр)</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/6688731">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">Currently, we are looking for an experienced engineer to join one of our teams that tightly collaborate with Silicon Valley startup in Unified Communications Federation space. We are looking for a Java Developer Bits of knowledge required:5+ years of</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">6688731</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">Codeminders</dct:issued>
+    <dct:title xml:lang="en">Senior Java Engineer</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7298213">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">Компания EDI-N - это украинская ИТ-компания, которая создает инновационные продукты на рынке электронного доументооборота. Мы делаем то, что завтра становится трендом и внедряем это в национальных и международных компаниях на рынке Украины. На сегодняшний</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7298213</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">EDIN</dct:issued>
+    <dct:title xml:lang="ru">Бизнес-аналитик</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7661963">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Днепр</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">Требования:Профильное образование;Знание и понимание уровней сетевой модели OSI;Опыт планирования и маршрутизации корпоративной сети;Опыт написания Fortigate Policy, создание ipsec vpn tunnel, virtual ip, load balancing, BGP, explicit proxy, vrrp, Ospf;Опыт</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7661963</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">Корпорация «Биосфера»</dct:issued>
+    <dct:title xml:lang="ru">Администратор аппаратной инфраструктуры</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7833956">
+    <dce:date rdf:datatype="&xsd;date">07.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">Мы сделали лучший в мире конвертер файлов, а сейчас делаем лучший в мире онлайн-редактор видео https://clideo.comРастем сильно быстрее, чем успеваем делать.Присоединяйся: https://team.softo.coОтклики/заявки рассматриваем только отправленные с нашего сайта!</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7833956</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">Softo</dct:issued>
+    <dct:title xml:lang="en">Full Stack Developer</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7843172">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">ASBISc Enterprises Plc is one of the leading distributors of Information and Communications Technology products and solutions in EMEA Emerging Markets. We are looking for Business Development Manager TM Canyon Key Tasks:Market analysis (global tendency,</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7843172</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">ASBIS-Украина</dct:issued>
+    <dct:title xml:lang="en">Business Development Manager TM Canyon</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7883911">
+    <dce:date rdf:datatype="&xsd;date">07.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">Запрошуємо Node.JS/TypeScript-розробника у проект зі створення платформи для e-commerce нового покоління. Ви будете працювати у добре налаштованому (Scrum, сталі бізнес-процеси) проекті із Ірландії. У команді 40 людей. Вони займаються розробкою та підтримкою</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7883911</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">Polytech Software</dct:issued>
+    <dct:title xml:lang="ru">Node.JS/TypeScript розробник</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7890666">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">We are: Payments by Wix - a fast-growing company dealing with all aspects of online payment processing and financial services for Wix users. Essentially, we make it possible for Wix users to get paid on their website. We're a customer-obsessed group of</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7890666</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">Wix</dct:issued>
+    <dct:title xml:lang="ru">Compliance Analyst</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7907446">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">Группа компаний «ВЕНБЕСТ» создана в 1991 году и на сегодняшний день является крупнейшей в Украине негосударственной охранной структурой, лидером рынка по комплексной защите объектов различных форм собственности и граждан.В состав группы компаний «ВЕНБЕСТ»</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7907446</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">ВЕНБЕСТ, ООО </dct:issued>
+    <dct:title xml:lang="ru">Тестировщик-аналитик со знаниями управленческого учета</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7910752">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">Программист 1СУХ , найдись! Рекрутинговое агентство для своего клиента, крупной компании, работающей в сфере телекоммуникаций и сервиса, ищет программист 1с УХ( управление холдингом) Профессиональные требования:Опыт доработки и разработки модулей, отчетов</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7910752</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">Анонимный работодатель</dct:issued>
+    <dct:title xml:lang="ru">Программист 1С УХ (управление холдингом)</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7924888">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">Ми - європейський банк, 11 років успішного бізнесу в Україні, 100 років в Європі.Регіональна мережа Піреус Банк в Україні охоплює Дніпропетровську, Київську, Львівську, Одеську, Харківську та Черкаську області.«Піреус Банк» має довгостроковий кредитний</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7924888</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">Piraeus Bank ICB</dct:issued>
+    <dct:title xml:lang="ru">Аналітик / Керівник підрозділу з питань протидії  кібер-шахрайству</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7930054">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">HEADWAY Company is a branch of the holding group and is working on its own cool project.We are a product IT-company designing our own product from the main business. We are experts in the field we've been working in for more than six years! With us, you'll</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7930054</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">HEADWAY</dct:issued>
+    <dct:title xml:lang="en">Senior Front-End Web Developer(React.Js)</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7931153">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">Our client is a New York City-based FinTech startup that is building a trading and risk software platform for the investment banking industry to sell as a service. DataArt has become the client's main technology partner. The project is currently in development</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7931153</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">DataArt</dct:issued>
+    <dct:title xml:lang="en">Senior BigData Engineer, Financial Software Solutions</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7931161">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">THE POSITION OFFERS REMOTE WORK OPPORTUNITY.Our client is a New York City-based FinTech startup that is building a trading and risk software platform for the investment banking industry to sell as a service. DataArt is looking for an experienced Python</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7931161</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">DataArt</dct:issued>
+    <dct:title xml:lang="ru">Tech Lead with Python Experience, Financial Software Solutions</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7942103">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Львов</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">Вы всегда хотели работать в быстрорастущей, прогрессивной продуктовой IТ-компании, с эффективным менеджментом и стратегическим управлением? Тогда наша новая позиция Менеджера по продажам услуг может стать Вашим шансом! Для нашей компании это одна из самых</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7942103</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">YourQuery S.R.O.</dct:issued>
+    <dct:title xml:lang="ru">Менеджер по продажам услуг</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7946203">
+    <dce:date rdf:datatype="&xsd;date">07.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Харьков</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">A large corporation, the leader on the book market, for its new digital educational project is looking for a Java Full Stack Senior developer.Requirements:5+ years of experience with Java, React.JS, Node.JSThe ability to find the good and intuitive solutionsGood</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7946203</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">Ранок, Видавництво </dct:issued>
+    <dct:title xml:lang="en"> Java Full Stack Senior developer</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7949037">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">Компания «BELTIMPORT» приглашает в свою команду «Системного администратора».Наша команда - одна из самых сильных на национальном рынке. Команда порядочных и объединенных общей целью людей. Мы помогаем заводам, фабрикам и производственным компания двигаться</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7949037</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">Белтимпорт</dct:issued>
+    <dct:title xml:lang="ru">Системный администратор</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7949307">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">Привіт! Ми вже адаптувались до змін ведення бізнесу в умовах сьогодення та продовжуємо свою звичну діяльність в медіа. Пишаємося тим, що в нас команда, з якою вдається долати найскладніші перепони і залишатись у доброму гуморі з натхненням покоряти ще</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7949307</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">Ocean Media</dct:issued>
+    <dct:title xml:lang="ru">Програміст прикладний</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7952577">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">Фармацевтична компанія Teva з 1901 року займається розробкою та виготовленням якісних та доступних лікарських засобів у більше ніж 60 країнах для понад 200 мільйонів людей щодня. Завдяки унікально широкому портфелю і дослідженням в усіх ключових терапевтичних</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7952577</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">TEVA</dct:issued>
+    <dct:title xml:lang="ru">CRM Спеціаліст</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://rabota.ua/company/vacancy/7953364">
+    <dce:date rdf:datatype="&xsd;date">08.05.2020</dce:date>
+    <dce:relation rdf:datatype="&xsd;string">Киев</dce:relation>
+    <dct:description rdf:datatype="&xsd;string">HEADWAY GLOBAL Company is a branch of the holding group and is working on its own cool project. Due to the fact that we are rapidly growing and launching a new product, we are looking for a Customer Support representative! It will be you who will be directly</dct:description>
+    <dct:identifier rdf:datatype="&xsd;positiveInteger">7953364</dct:identifier>
+    <dct:issued rdf:datatype="&xsd;string">HEADWAY</dct:issued>
+    <dct:title xml:lang="ru">Customer Support representative</dct:title>
+  </rdf:Description>
+</rdf:RDF>

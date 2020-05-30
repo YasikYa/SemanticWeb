@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<ArrayOfVacancy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Vacancy Id="7902321" Hot="true">
+    <Name>Product (process) owner</Name>
+    <Date>2020-04-11T00:01:00.417</Date>
+    <CityName>Днепр</CityName>
+    <ShortDescription>Обязанности:Product (process) owner (акционирования в компании):построение безшовного процесс акционирования в компании (с учетом всех потребностей и ресурсов внутренних пользователей процесса; с учетом клиентского опыта внешних пользователей процесса);развитие</ShortDescription>
+    <CompanyName>EVA - линия магазинов</CompanyName>
+  </Vacancy>
+  <Vacancy Id="6925968" Hot="true">
+    <Name>PHP/CMS developer</Name>
+    <Date>2020-04-11T00:01:00.417</Date>
+    <CityName>Харьков</CityName>
+    <ShortDescription>CMS-команда NIX Solutions приглашает PHP/CMS-разработчиков с опытом работы с WordPress, Magento, Drupal либо другими. Суть работы:Разработка и поддержка web-сайтов на базе CMS WordPress (а также Magento, Drupal), разработка плагинов и шаблонов для CMS</ShortDescription>
+    <CompanyName>NIX Solutions</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7931161" Hot="true">
+    <Name>Senior Python Developer, Financial Software Solutions</Name>
+    <Date>2020-04-10T19:01:00.453</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>THE POSITION OFFERS REMOTE WORK OPPORTUNITY.Our client is a New York City-based FinTech startup that is building a trading and risk software platform for the investment banking industry to sell as a service. DataArt is looking for an experienced Python</ShortDescription>
+    <CompanyName>DataArt</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7936346" Hot="true">
+    <Name>BigData Developer, Media Conglomerate</Name>
+    <Date>2020-04-10T19:01:00.453</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>DataArt is involved in software transformation of key business areas of one of the largest music conglomerates. The solutions we're currently developing affect various aspects of recording studios: tour organization, merchandising, management of licenses</ShortDescription>
+    <CompanyName>DataArt</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7931153" Hot="true">
+    <Name>Senior BigData Engineer, Financial Software Solutions</Name>
+    <Date>2020-04-10T18:01:00.06</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Our client is a New York City-based FinTech startup that is building a trading and risk software platform for the investment banking industry to sell as a service. DataArt has become the client's main technology partner. The project is currently in development</ShortDescription>
+    <CompanyName>DataArt</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7887332" Hot="true">
+    <Name>Senior QAE/Lead QAE</Name>
+    <Date>2020-04-10T17:11:38.067</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Requirements:     • Experience in QA 3+ years;     • Experience of testing WEB apps;• Experience of testing client-server applications;• Strong knowledge of SQL;• Experience of testing web-services: SoapUI, Postman etc;• Technical Education;• Good written</ShortDescription>
+    <CompanyName>B2B Soft Inc.</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7936620" Hot="true">
+    <Name>Фахівець відділу підтримки користувачів (SAP)</Name>
+    <Date>2020-04-10T17:01:00.52</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>TEDIS Ukraine - одна з найбільших українських дистрибуційних компаній, яка входить в п'ятірку «Кращих компаній для лідерів» в Україні за результатами дослідження, проведеного міжнародною консалтинговою компанією HAY Group.Наші підрозділи знаходяться по</ShortDescription>
+    <CompanyName>ТЕДІС УКРАЇНА, ТОВ</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7936697" Hot="true">
+    <Name>BigData Developer, Media Conglomerate</Name>
+    <Date>2020-04-10T16:01:00.95</Date>
+    <CityName>Днепр</CityName>
+    <ShortDescription>DataArt is involved in software transformation of key business areas of one of the largest music conglomerates. The solutions we're currently developing affect various aspects of recording studios: tour organization, merchandising, management of licenses</ShortDescription>
+    <CompanyName>DataArt</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7608475" Hot="true">
+    <Name>Аккаунт - менеджер со знанием немецкого языка</Name>
+    <Date>2020-04-10T16:01:00.95</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Кто нам нужен?Специалист, который будет внедрять, развивать и поддерживать высокие стандарты качества обслуживания наших клиентов. Наш будущий коллега:свободно владеет немецким/русским языками (письменным и устным);имеет опыт вести телефонные переговоры</ShortDescription>
+    <CompanyName>Lime Devs</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7936769" Hot="true">
+    <Name>Delivery manager</Name>
+    <Date>2020-04-10T14:01:00.217</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Requirements:Experience in application development or elsewhere in SDLC;Strong understanding of the software development lifecycle;Strong understanding of Agile (Scrum) Methodology;Fluent in English, with good communication and reporting skillsTechnical</ShortDescription>
+    <CompanyName>B2B Soft Inc.</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7931506" Hot="true">
+    <Name>Oracle DB Administrator, Media Conglomerate</Name>
+    <Date>2020-04-10T12:01:00.76</Date>
+    <CityName>Днепр</CityName>
+    <ShortDescription>DataArt is involved in software modernization of key business areas of one of the largest music conglomerates. The solutions we're currently developing affect various aspects of recording studios: tour organization, merchandising, management of licenses</ShortDescription>
+    <CompanyName>DataArt</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7843172" Hot="true">
+    <Name>Business Development Manager TM Canyon</Name>
+    <Date>2020-04-10T12:01:00.76</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>ASBISc Enterprises Plc is one of the leading distributors of Information and Communications Technology products and solutions in EMEA Emerging Markets. We are looking for Business Development Manager TM Canyon Key Tasks:Market analysis (global tendency,</ShortDescription>
+    <CompanyName>ASBIS-Украина</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7884970" Hot="true">
+    <Name>Аккаунт-менеджер  со знанием турецкого языка</Name>
+    <Date>2020-04-10T11:01:00.267</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Кто нам нужен?Специалист, который будет внедрять, развивать и поддерживать высокие стандарты качества обслуживания наших клиентов. Мы предлагаем:Работу в самом сердце КиеваУдобный график работы (вт. - сб.), с 12 до 21:00 (тебе не придется толпиться в</ShortDescription>
+    <CompanyName>Lime Devs</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7604508" Hot="true">
+    <Name>Аккаунт - менеджер со знанием польского языка</Name>
+    <Date>2020-04-10T11:01:00.267</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>В продуктовую IT-компанию, которая занимается разработкой программного обеспечения и продвижением его до конечного пользователя, открыт набор на позицию аккаунт - менеджера со знанием польского языка. Кто нам нужен?Специалист, который будет внедрять,</ShortDescription>
+    <CompanyName>Lime Devs</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7928040" Hot="true">
+    <Name>Oracle DB Administrator, Media Conglomerate</Name>
+    <Date>2020-04-10T11:01:00.267</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>DataArt is involved in software modernization of key business areas of one of the largest music conglomerates. The solutions we're currently developing affect various aspects of recording studios: tour organization, merchandising, management of licenses</ShortDescription>
+    <CompanyName>DataArt</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7454062" Hot="true">
+    <Name>Преподаватель Python</Name>
+    <Date>2020-04-10T10:01:00.783</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Компьютерная Академия ШАГ - крупнейшее международное учебное заведение, специализирующееся на компьютерном образовании. Работаем с 1999 года. Открыто 83 филиалов в 20 странах мира.ШАГ - крупнейший авторизованный учебный центр Microsoft, Cisco, Autodesk.</ShortDescription>
+    <CompanyName>Шаг, Компьютерная Академия</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7608499" Hot="true">
+    <Name>Менеджер по продажам B2B (холодные продажи)</Name>
+    <Date>2020-04-10T10:01:00.783</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Binotel - продуктовая IT-компания, которая предоставляет услуги бизнес телефонии, вместе с набором умных инструментов для повышения продаж и уровня клиентского сервиса. Каждый день мы помогаем нашим клиентам становится круче и зарабатывать больше! Подробней</ShortDescription>
+    <CompanyName>Бинотел, ТОВ </CompanyName>
+  </Vacancy>
+  <Vacancy Id="6561083" Hot="true">
+    <Name>Customer Support specialist</Name>
+    <Date>2020-04-10T00:01:00.94</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>You will be of great asset if:you possess great English written and oral communication skills;you are a fluent Windows PC user with speedy typing skills;you're ready to take at least 2 night shifts per week;attentiveness is all about you;diligence is</ShortDescription>
+    <CompanyName>КВЕСТ МАРКЕТИНГ ЛТД</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7938493" Hot="true">
+    <Name>Embedded software developer, программист микроконтроллеров</Name>
+    <Date>2020-04-09T15:55:36.673</Date>
+    <CityName>Одесса</CityName>
+    <ShortDescription>Представительство международной компании по разработке и производству смарт-устройств набирает талантливых, креативных и амбициозных сотрудников.Мы обеспечиваем:интересные задачи, требующие оригинальных решенийвозможность карьерного ростастабильную и</ShortDescription>
+    <CompanyName>LOGIK PLUS LLC</CompanyName>
+  </Vacancy>
+  <Vacancy Id="7938455" Hot="true">
+    <Name>Tech Lead (команда автоматизації внутрішніх процесів)</Name>
+    <Date>2020-04-09T15:19:12.57</Date>
+    <CityName>Киев</CityName>
+    <ShortDescription>Terrasoft Ukraine - один із ключових гравців на глобальному ринку low-code, BPM і CRM. Компанія входить до міжнародної групи Creatio, штат якої налічує 600+ співробітників, а клієнти представлені в 100+ країнах світу. Головний офіс компанії розташований</ShortDescription>
+    <CompanyName>Terrasoft</CompanyName>
+  </Vacancy>
+</ArrayOfVacancy>
